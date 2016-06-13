@@ -18,15 +18,17 @@ comision: "Адреса: 88000, Україна, Закарпатська обл.
 
 footer-names:
 you-tube_username:
-github_username:  
+github_username:  "GitHub Pages"
 facebook_username: 
 vk_username: 
+jekyll_username: Jekyll
 
 footer-links:
 you-tube_link: "https://www.youtube.com/channel/UCSIfo-iRoeS7nf5957HnI0Q/videos"
 github_link:  "https://pages.github.com/"
 facebook_link: "https://facebook.com/uzhnu/"
 vk_link: "http://vk.com/uzhhorodnationaluniversity"
+jekyll_link: "https://jekyllrb.com/"
 
 image: 
 

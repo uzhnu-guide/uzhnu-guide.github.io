@@ -1,0 +1,7 @@
+{% if site.github_link %}
+<br><i>створено з допомогою технологій:</i><br> 
+<a href="{{ site.github_link }}" target="_blank"><span class="icon icon--github">{% include icon-github.svg %}</span>
+<span class="username">{{site.github_username}}</span></a> 
+<i> а також  </i>
+<a href="{{ site.jekyll_link}}" target="blank"><span>{%include icon-jekyll.svg%}</span>
+<span class="username">{{ site.jekyll_username }}</span></a>{% endif %}
