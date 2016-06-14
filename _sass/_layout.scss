@@ -180,16 +180,16 @@
 }
 
 .main-image-content{	
-	img{
+	>img{
 		margin: 10px 0px 10px 0px;
 	}
 	
-	span{
+	>span{
 		font-size: 20px;
 		color: #404040;
 	}
 	
-	p{
+	>p{
 		color: $grey-color;
 	}
 	
@@ -198,14 +198,14 @@
 .facultet{
 	height: 400px;
 	
-	.image-title{
+	>.image-title{
 		font-size: 25px;
 		color: #505050;
 	}
 	
-	.image-content{
+	>.image-content{
 		color: $grey-color;
-		img{
+		>img{
 			width: 500px;
 			height: 300px;
 			float: left;
@@ -214,11 +214,29 @@
 	}
 }
 
+@include media-query(820px){
+	.facultet{
+		height: 450px;
+	}
+	.image-content{
+		>img{
+			float: none;
+		}
+	}
+}
+
+@include media-query(360px){
+	.facultet{
+		height: 480px;
+	}
+}
+
+
 .about{
-	p{
+	>p{
 		text-indent: 20px;
 	}
-	img{
+	>img{
 		width: 800px;
 		height: 400px;
 		margin: 10px;
@@ -226,11 +244,11 @@
 }
 
 .hostels{
-	.hostels-title{
+	>.hostels-title{
 		font-size: 20px;
 		color: #505050;
 	}
-	.hostels-content{
+	>.hostels-content{
 		margin: 0px 0px 20px 10px;
 	}
 }
