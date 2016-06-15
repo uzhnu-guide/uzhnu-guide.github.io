@@ -230,7 +230,7 @@
 
 @include media-query(360px){
 	.facultet{
-		height: 450px;
+		height: 460px;
 	}
 	.facultet1{
 		height: 550px;
@@ -250,11 +250,11 @@
 }
 
 .hostels{
-	>.hostels-title{
+	.hostels-title{
 		font-size: 20px;
 		color: #505050;
 	}
-	>.hostels-content{
+	.hostels-content{
 		margin: 0px 0px 20px 10px;
 	}
 }
