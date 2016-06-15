@@ -180,16 +180,16 @@
 }
 
 .main-image-content{	
-	>img{
+	img{
 		margin: 10px 0px 10px 0px;
 	}
 	
-	>span{
+	span{
 		font-size: 20px;
 		color: #404040;
 	}
 	
-	>p{
+	p{
 		color: $grey-color;
 	}
 	
@@ -230,16 +230,19 @@
 
 @include media-query(360px){
 	.facultet{
-		height: 480px;
+		height: 450px;
+	}
+	.facultet1{
+		height: 550px;
 	}
 }
 
 
 .about{
-	>p{
+	p{
 		text-indent: 20px;
 	}
-	>img{
+	img{
 		width: 800px;
 		height: 400px;
 		margin: 10px;
