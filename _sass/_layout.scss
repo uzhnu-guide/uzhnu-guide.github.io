@@ -214,14 +214,17 @@
 	}
 }
 
+.facultet1{
+	@extend .facultet;
+	}
+	
+	
 @include media-query(820px){
 	.facultet{
 		height: 450px;
 	}
-	.image-content{
-		>img{
-			float: none;
-		}
+	.facultet1{
+		height: 550px;
 	}
 }
 
