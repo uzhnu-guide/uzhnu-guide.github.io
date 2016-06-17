@@ -213,30 +213,29 @@
 			margin: 10px;
 		}
 	}
+	
+@include media-query($on-laptop){
+			height: 450px;
+	}	
+
+@include media-query($on-palm){
+			height: 460px;
+	}
 }
 
 .facultet1{
 	@extend .facultet;
-	}
-	
-	
-@include media-query($on-laptop){
-	.facultet{
-		height: 450px;
-	}
-	.facultet1{
+	@include media-query($on-laptop){
 		height: 480px;
 	}
-}
-
-@include media-query($on-palm){
-	.facultet{
-		height: 460px;
-	}
-	.facultet1{
+	@include media-query($on-palm){
 		height: 550px;
 	}
 }
+	
+	
+
+	
 
 
 .about{
