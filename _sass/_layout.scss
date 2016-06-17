@@ -98,6 +98,7 @@
  * Site footer
  */
 .site-footer {
+	clear: both;
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
@@ -196,7 +197,7 @@
 }
 
 .facultet{
-	height: 400px;
+	min-height: 400px;
 	
 	>.image-title{
 		font-size: 25px;
@@ -219,7 +220,7 @@
 	}
 	
 	
-@include media-query(820px){
+@include media-query($on-laptop){
 	.facultet{
 		height: 450px;
 	}
@@ -228,7 +229,7 @@
 	}
 }
 
-@include media-query(360px){
+@include media-query($on-palm){
 	.facultet{
 		height: 460px;
 	}
@@ -239,13 +240,8 @@
 
 
 .about{
-	p{
+	>p{
 		text-indent: 20px;
-	}
-	img{
-		width: 800px;
-		height: 400px;
-		margin: 10px;
 	}
 }
 
