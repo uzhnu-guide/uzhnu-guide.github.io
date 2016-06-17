@@ -8,7 +8,7 @@
 # Site settings
 title: Путівник ДВНЗ "УжНУ"
 description: > # this means to ignore newlines until "baseurl:"
-  Ресурс призначений для абітурієнтів УжНУ. Для того щоб допомогти ознайомитися із структурою університету.
+  Ресурс призначений для абітурієнтів УжНУ, щоб допомогти ознайомитися із структурою університету.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "www.uzhnu.edu.ua/uk/" 
