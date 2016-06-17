@@ -224,7 +224,16 @@
 		height: 450px;
 	}
 	.facultet1{
-		height: 500px;
+		height: 480px;
+	}
+}
+
+@include media-query(430px){
+	.facultet{
+		height: 460px;
+	}
+	.facultet1{
+		height: 550px;
 	}
 }
 
